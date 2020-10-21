@@ -21,7 +21,7 @@
         display: flex;
         align-items: center;
         justify-content: start;
-        width: 60%;
+        width: 50%;
         height: 100vh;
     }
 
@@ -69,10 +69,10 @@
     }
 
     .profile-photo img {
-        height: 6rem;
+        height: 7rem;
     }
 
-    .instagam-login {
+    .instagram-login {
         background-color: #0095f6;
         color: #ffffff;
         padding: 8px;
@@ -81,8 +81,10 @@
 
     .instagram-logout {
         color: #0095f6;
-        margin-top: 1rem;
-    }.not-account   {
+        margin-top: 1rem;}
+
+
+    .not-account   {
         color: rgb(160, 160, 160);
     }
 
@@ -107,6 +109,12 @@
      padding: 1rem;
     }
 
+    .app-download {
+        height: 3rem;
+        width: 10rem;
+        background-size: cover;
+    }
+
     .app-download:nth-child(1) {
          background-image: url('App-store-apple.jpg');
     }
@@ -117,20 +125,24 @@
 
      /* media queries */
 
-     @media  {max-width: 1024;
-      .instagram-wrapper {
-          width: 90%;
-      }
+     @media (max-width: 1024px) {
+        .instagram-wrapper {
+            width: 100%;
+        }
     }
     
-    @media (max-whidth: 650px) 
-    {
+    @media (max-width: 650px) {
+        body {
+            background-color: #ffffff;
+        }
+
        .instagram-wrapper {
            width: 90%;
        }
     }
+     
        .instagram-phone {
-           display: none;
+           display: flex; /* diferente do exercício - o 'none' foi substituido por "flex", pois não aparecia*/
        }
 
        .instagram-continue {
