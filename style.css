@@ -10,7 +10,7 @@
     body {
         width: 100%;
         min-height: 100vh;
-        background-color: gainsboro;
+        background-color: whitesmoke;
         margin: 0;
         padding: 0;
         display: flex;
@@ -45,7 +45,7 @@
        justify-content: space-between;
        align-items: center;
        flex-direction: column;
-       background-color: ghostwhite;
+       background-color: lightgray;
        width: 100%;
        padding: 1.3rem 0;
        border: 1px solid lightgray;
